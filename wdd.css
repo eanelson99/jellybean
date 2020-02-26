@@ -1,7 +1,7 @@
-body {background-color:aliceblue;}
+body {background-color: #89a2e2a6;}
 h1{width:1149px; float:right; }
 .day-box{width:1149px; float:right;}
 .reading{}
 .reading-box{}
 img.person_image{height:100px; width:100px;}
-.header{width:200px; height:850px; float:left;}
+.header{width:200px; height:850px; float:left;background-color: #ffffff5c;}
