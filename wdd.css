@@ -1,6 +1,6 @@
 body {background-color:aliceblue;}
-h1{}
-.day-box{}
+h1{width:1149px; float:right;}
+.day-box{width:1149px; float:right;}
 .reading{}
 .reading-box{}
 img.person_image{height:100px; width:100px;}
