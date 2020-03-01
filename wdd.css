@@ -6,4 +6,4 @@ h1{width:1100px; float:right; }
 img.person_image{height:100px; width:100px; display: block; margin: 0px auto; border-radius: 50%;}
 .header{width:200px; height:850px; float:left;background-color: #ffffff5c;}
 .header{border: 5px solid; padding:20px; border-radius: 10px; border-color: #c5ab3e;}
-table, tr, td{border:1px solid;}
+table, tr, td{border:1px solid #c5ab3e;}
