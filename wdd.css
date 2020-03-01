@@ -4,7 +4,7 @@
 body {background-color: #89a2e2a6; background-image: linear-gradient(to left, #2763bd, transparent); color: white;}
 
 
-h1{width:1100px; float:right; text-align: center;}
+h1{width:1100px; text-align: center;}
 
 
 .day-box{width:1100px; float:right;margin: 10px;}
@@ -31,7 +31,7 @@ img.person_image{height:100px; width:100px; display: block; margin: 0px auto; bo
 .header{position: fixed;}
 
 
-table, tr, td{border: 3px solid #00000021; border-collapse: collapse; margin: 300px;}
+table, tr, td{border: 3px solid #00000021; border-collapse: collapse; margin: 300px; margin-top:0px;}
 
 
 svg{margin:300px;}
