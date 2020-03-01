@@ -9,6 +9,10 @@ h1{width:1100px; float:right; text-align: center;}
 
 .day-box{width:1100px; float:right;margin: 10px;}
 
+.day-box.COMPLETED{border: 3px solid #00000021;}
+
+.day-b0x.PREP{border: 3px solid #00000021;}
+
 
 .day-box.CURRENT{color: white; font-size: large; font-weight: bold; border: 5px solid transparent; padding: 5px; border-image: url(seashell.png) 30% round;}
 
@@ -19,7 +23,7 @@ h1{width:1100px; float:right; text-align: center;}
 img.person_image{height:100px; width:100px; display: block; margin: 0px auto; border-radius: 50%;}
 
 
-.header{width:200px; height:850px; float:left;}
+.header{width:200px; height:100%; float:left;}
 
 
 .header{background-image: url(whitesand.jpeg);}
@@ -27,7 +31,7 @@ img.person_image{height:100px; width:100px; display: block; margin: 0px auto; bo
 .header{position: fixed;}
 
 
-table, tr, td{border: 3px solid #00000021;; border-collapse: collapse; margin: 300px;}
+table, tr, td{border: 3px solid #00000021; border-collapse: collapse; margin: 300px;}
 
 
 svg{margin:300px;}
