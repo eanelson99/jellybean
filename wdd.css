@@ -3,6 +3,15 @@
 
 body {background-color: #89a2e2a6; background-image: linear-gradient(to left, #2763bd, transparent); color: white;}
 
+body { position: relative; animation: mymove 5s infinite; }
+.day{animation-timing-function: linear;}
+.read-box{animation-timing-function: ease;}
+.prep-box{animation-timing-function: ease-in;}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
 
 h1{width:1100px; text-align: center;}
 
