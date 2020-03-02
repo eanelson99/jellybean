@@ -3,10 +3,10 @@
 
 body {background-color: #89a2e2a6; background-image: linear-gradient(to left, #2763bd, transparent); color: white;}
 
-body { position: relative; animation: mymove 5s infinite; }
-.day{animation-timing-function: linear;}
-.read-box{animation-timing-function: ease;}
-.prep-box{animation-timing-function: ease-in;}
+body { position: relative; }
+.day{animation:mymove 5s 1; animation-timing-function: linear;}
+.read-box{animation: mymove 5s 1; animation-timing-function: ease;}
+.prep-box{animatio: mymove 5s 1; animation-timing-function: ease-in;}
 @keyframes mymove {
   from {left: 0px;}
   to {left: 300px;}
