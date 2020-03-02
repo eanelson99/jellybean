@@ -13,7 +13,7 @@ body { x position: relative; }
 }
 
 
-h1{width:1100px; text-align: center;}
+h1{width:1100px; text-align: center; font-family: 'Oswald', ;}
 
 
 .day-box{width:1100px; float:right;margin: 10px;}
