@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
-*{font-family: 'oxygen',;}
-
 body {background-color: #89a2e2a6; background-image: linear-gradient(to left, #2763bd, transparent); color: white;    }
 
-h1 {position: relative; animation:mymove 20s 3; animation-timing-function: linear; animation-direction: alternate;}
+h1 {position: relative; animation:mymove 10s 3; animation-timing-function: linear; animation-direction: alternate;}
 @keyframes mymove {
   from {left: 0px;}
   to {left: 300px;}
 }
 
-
 h1{width:1100px; text-align: center; border-image:url(waves.png);}
+h1 {font:caption; font-size: 40px;}
+.day-box {font:caption; font-size: 15px;}
 
 span.username {
     margin: 40px;
@@ -37,6 +35,7 @@ img.person_image{height:100px; width:100px; display: block; margin: 0px auto; bo
 
 
 .header{background-image: url(whitesand.jpeg);}
+.header{box-shadow: -3px -3px #0000008c;}
 
 .header{position: fixed;}
 
@@ -52,7 +51,7 @@ background-repeat:no-repeat;
 
 h3 {
     padding-left: 200px;
-    border: 5px solid transparent; padding: 5px; border-image: url(beachball.png) 100 round;}
+    border: 5px solid transparent; padding: 5px; border-image: url(beachball.png) 100 round;
     margin-left: 205px;
 }
 
