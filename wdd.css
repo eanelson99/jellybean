@@ -3,16 +3,18 @@
 
 body {background-color: #89a2e2a6; background-image: linear-gradient(to left, #2763bd, transparent); color: white;}
 
-.day {position: relative; animation:mymove 5s 1; animation-timing-function: linear;}
-.read-box{position: relative; animation:mymove 5s 1; animation-timing-function: ease;}
-.prep-box{position: relative; animation:mymove 5s 1; animation-timing-function: ease-in;}
+h1 {position: relative; animation:mymove 5s 1; animation-timing-function: linear;}
 @keyframes mymove {
   from {left: 0px;}
   to {left: 300px;}
 }
 
 
-h1{width:1100px; text-align: center;, ;}
+h1{width:1100px; text-align: center; border-bottom: 7px; border-image:url(waves.png);}
+
+span.username {
+    margin: 40px;
+}
 
 
 .day-box{width:1100px; float:right;margin: 10px;}
