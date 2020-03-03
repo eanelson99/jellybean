@@ -10,7 +10,7 @@ h1 {position: relative; animation:mymove 5s 1; animation-timing-function: linear
 }
 
 
-h1{width:1100px; text-align: center; border-bottom: 7px solid; border-image:url(waves.png);}
+h1{width:1100px; text-align: center; border-image:url(waves.png);}
 
 span.username {
     margin: 40px;
@@ -39,6 +39,13 @@ img.person_image{height:100px; width:100px; display: block; margin: 0px auto; bo
 .header{background-image: url(whitesand.jpeg);}
 
 .header{position: fixed;}
+
+form.account_form {margin-left:205px;
+background-image: url(beachball.png);
+background-position: center bottom;
+}
+
+
 
 
 table, tr, td{border: 3px solid #00000021; border-collapse: collapse; margin: 300px; margin-top:0px;}
