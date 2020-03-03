@@ -3,7 +3,7 @@
 
 body {background-color: #89a2e2a6; background-image: linear-gradient(to left, #2763bd, transparent); color: white;    }
 
-h1 {position: relative; animation:mymove 5s 1; animation-timing-function: linear;}
+h1 {position: relative; animation:mymove 20s 3; animation-timing-function: linear; animation-direction: alternate;}
 @keyframes mymove {
   from {left: 0px;}
   to {left: 300px;}
@@ -52,9 +52,8 @@ background-repeat:no-repeat;
 
 h3 {
     padding-left: 200px;
-    border-image:url(beachball.png);
-    border: 5px solid transparent; padding: 5px; border-image: url(seashell.png) 30% round;}
-  
+    border: 5px solid transparent; padding: 5px; border-image: url(beachball.png) 100 round;}
+    margin-left: 205px;
 }
 
 .grade {padding-left: 200px;}
