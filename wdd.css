@@ -3,17 +3,16 @@
 
 body {background-color: #89a2e2a6; background-image: linear-gradient(to left, #2763bd, transparent); color: white;}
 
-body { x position: relative; }
-.day{x animation:mymove 5s 1; animation-timing-function: linear;}
-.read-box{x animation: mymove 5s 1; animation-timing-function: ease;}
-.prep-box{x animation: mymove 5s 1; animation-timing-function: ease-in;}
+.day {position: relative; animation:mymove 5s 1; animation-timing-function: linear;}
+.read-box{position: relative; animation:mymove 5s 1; animation-timing-function: ease;}
+.prep-box{position: relative; animation:mymove 5s 1; animation-timing-function: ease-in;}
 @keyframes mymove {
   from {left: 0px;}
   to {left: 300px;}
 }
 
 
-h1{width:1100px; text-align: center; font-family: 'Oswald', ;}
+h1{width:1100px; text-align: center;, ;}
 
 
 .day-box{width:1100px; float:right;margin: 10px;}
@@ -45,10 +44,10 @@ table, tr, td{border: 3px solid #00000021; border-collapse: collapse; margin: 30
 
 svg{margin:300px;}
 
-body > div.header > div.nav > a:nth-child(1){ font-size: 40px; background-color: white; margin:1px;}
-body > div.header > div.nav > a:nth-child(2){ font-size:40px; background-color: white; margin:1px;}
-body > div.header > div.nav > a:nth-child(3){ font-size: 40px; background-color: white; margin:1px;}
-body > div.header > div.nav > a:nth-child(4){ font-size: 40px;background-color: white; margin:1px;}
-body > div.header > div.nav > a:nth-child(5){ font-size: 40px; background-color: white; margin:1px;}
-body > div.header > div.nav > a:nth-child(6){ font-size: 40px; background-color: white; margin:1px;}
-body > div.header > div.nav > a:nth-child(7){ font-size: 40px; background-color: white; margin:1px;}
+body > div.header > div.nav > a:nth-child(1){ font-size: 40px; background-color:#ffffff57 ; margin:45px;}
+body > div.header > div.nav > a:nth-child(2){ font-size:40px; background-color: #ffffff57; margin:5px;}
+body > div.header > div.nav > a:nth-child(3){ font-size: 40px; background-color: #ffffff57; margin:45px;}
+body > div.header > div.nav > a:nth-child(4){ font-size: 40px;background-color: #ffffff57; margin:7px;}
+body > div.header > div.nav > a:nth-child(5){ font-size: 40px; background-color: #ffffff57; margin:45px;}
+body > div.header > div.nav > a:nth-child(6){ font-size: 40px; background-color: #ffffff57; margin:45px;}
+body > div.header > div.nav > a:nth-child(7){ font-size: 40px; background-color: #ffffff57; margin:45px;}
